@@ -1,0 +1,49 @@
+
+---
+
+## 📦 Comandos seriales
+
+Conectarse por el Monitor Serie a 115200 baudios.
+
+| Comando          | Acción                                      |
+|------------------|---------------------------------------------|
+| `bpm <valor>`    | Cambia la frecuencia (30 a 180 bpm)         |
+| `pat <0-9>`      | Cambia la patología simulada                |
+| `help`           | Muestra el menú de ayuda                    |
+
+### Patologías disponibles
+
+| Código | Nombre                    |
+|--------|---------------------------|
+| 0      | ECG Normal                |
+| 1      | Arritmia                  |
+| 2      | Bradicardia               |
+| 3      | Taquicardia               |
+| 4      | Extrasístole              |
+| 5      | Fibrilación auricular     |
+| 6      | Flutter auricular         |
+| 7      | Bloqueo AV                |
+| 8      | Isquemia (ST ↓)           |
+| 9      | Infarto agudo de miocardio (ST ↑) |
+
+---
+
+## 🛠 Requisitos
+
+- ESP32
+- Arduino IDE con placa ESP32 instalada
+- Filtro RC (1kΩ + 0.1µF recomendado)
+- Cualquier visualizador de señal (osciloscopio o monitor ECG)
+
+---
+
+## 🧠 Créditos
+
+Desarrollado por [Tu Nombre]  
+Inspirado por prácticas médicas y educativas
+
+---
+
+## 📄 Licencia
+
+MIT License. Ver archivo `LICENSE` para más detalles.
